@@ -22,7 +22,6 @@ public class Main {
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
 		customerManager.save(customer);
 
-		System.out.println("deneme");
 	}
 
 }
